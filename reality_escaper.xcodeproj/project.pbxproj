@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDFA20F6220C00FA00297946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA20F5220C00F900297946 /* AppDelegate.swift */; };
+		FDFA20F8220C00FA00297946 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFA20F7220C00FA00297946 /* art.scnassets */; };
+		FDFA20FA220C00FA00297946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA20F9220C00FA00297946 /* ViewController.swift */; };
+		FDFA20FD220C00FA00297946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFA20FB220C00FA00297946 /* Main.storyboard */; };
+		FDFA20FF220C00FF00297946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFA20FE220C00FF00297946 /* Assets.xcassets */; };
+		FDFA2102220C00FF00297946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFA2100220C00FF00297946 /* LaunchScreen.storyboard */; };
+		FDFA210D220C00FF00297946 /* reality_escaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA210C220C00FF00297946 /* reality_escaperTests.swift */; };
+		FDFA2118220C010000297946 /* reality_escaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA2117220C010000297946 /* reality_escaperUITests.swift */; };
+		FDFA2126220C011600297946 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA2125220C011600297946 /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDFA2109220C00FF00297946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDFA20EA220C00F900297946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDFA20F1220C00F900297946;
+			remoteInfo = reality_escaper;
+		};
+		FDFA2114220C00FF00297946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDFA20EA220C00F900297946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDFA20F1220C00F900297946;
+			remoteInfo = reality_escaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDFA20F2220C00F900297946 /* reality_escaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reality_escaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFA20F5220C00F900297946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDFA20F7220C00FA00297946 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		FDFA20F9220C00FA00297946 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDFA20FC220C00FA00297946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDFA20FE220C00FF00297946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDFA2101220C00FF00297946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDFA2103220C00FF00297946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFA2108220C00FF00297946 /* reality_escaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reality_escaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFA210C220C00FF00297946 /* reality_escaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reality_escaperTests.swift; sourceTree = "<group>"; };
+		FDFA210E220C00FF00297946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFA2113220C00FF00297946 /* reality_escaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reality_escaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFA2117220C010000297946 /* reality_escaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reality_escaperUITests.swift; sourceTree = "<group>"; };
+		FDFA2119220C010000297946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFA2125220C011600297946 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDFA20EF220C00F900297946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFA2105220C00FF00297946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFA2110220C00FF00297946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDFA20E9220C00F900297946 = {
+			isa = PBXGroup;
+			children = (
+				FDFA20F4220C00F900297946 /* reality_escaper */,
+				FDFA210B220C00FF00297946 /* reality_escaperTests */,
+				FDFA2116220C00FF00297946 /* reality_escaperUITests */,
+				FDFA20F3220C00F900297946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDFA20F3220C00F900297946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA20F2220C00F900297946 /* reality_escaper.app */,
+				FDFA2108220C00FF00297946 /* reality_escaperTests.xctest */,
+				FDFA2113220C00FF00297946 /* reality_escaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDFA20F4220C00F900297946 /* reality_escaper */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA20F5220C00F900297946 /* AppDelegate.swift */,
+				FDFA2125220C011600297946 /* Extension.swift */,
+				FDFA20F7220C00FA00297946 /* art.scnassets */,
+				FDFA20F9220C00FA00297946 /* ViewController.swift */,
+				FDFA20FB220C00FA00297946 /* Main.storyboard */,
+				FDFA20FE220C00FF00297946 /* Assets.xcassets */,
+				FDFA2100220C00FF00297946 /* LaunchScreen.storyboard */,
+				FDFA2103220C00FF00297946 /* Info.plist */,
+			);
+			path = reality_escaper;
+			sourceTree = "<group>";
+		};
+		FDFA210B220C00FF00297946 /* reality_escaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA210C220C00FF00297946 /* reality_escaperTests.swift */,
+				FDFA210E220C00FF00297946 /* Info.plist */,
+			);
+			path = reality_escaperTests;
+			sourceTree = "<group>";
+		};
+		FDFA2116220C00FF00297946 /* reality_escaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA2117220C010000297946 /* reality_escaperUITests.swift */,
+				FDFA2119220C010000297946 /* Info.plist */,
+			);
+			path = reality_escaperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDFA20F1220C00F900297946 /* reality_escaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFA211C220C010000297946 /* Build configuration list for PBXNativeTarget "reality_escaper" */;
+			buildPhases = (
+				FDFA20EE220C00F900297946 /* Sources */,
+				FDFA20EF220C00F900297946 /* Frameworks */,
+				FDFA20F0220C00F900297946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reality_escaper;
+			productName = reality_escaper;
+			productReference = FDFA20F2220C00F900297946 /* reality_escaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDFA2107220C00FF00297946 /* reality_escaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFA211F220C010000297946 /* Build configuration list for PBXNativeTarget "reality_escaperTests" */;
+			buildPhases = (
+				FDFA2104220C00FF00297946 /* Sources */,
+				FDFA2105220C00FF00297946 /* Frameworks */,
+				FDFA2106220C00FF00297946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDFA210A220C00FF00297946 /* PBXTargetDependency */,
+			);
+			name = reality_escaperTests;
+			productName = reality_escaperTests;
+			productReference = FDFA2108220C00FF00297946 /* reality_escaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDFA2112220C00FF00297946 /* reality_escaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFA2122220C010000297946 /* Build configuration list for PBXNativeTarget "reality_escaperUITests" */;
+			buildPhases = (
+				FDFA210F220C00FF00297946 /* Sources */,
+				FDFA2110220C00FF00297946 /* Frameworks */,
+				FDFA2111220C00FF00297946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDFA2115220C00FF00297946 /* PBXTargetDependency */,
+			);
+			name = reality_escaperUITests;
+			productName = reality_escaperUITests;
+			productReference = FDFA2113220C00FF00297946 /* reality_escaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDFA20EA220C00F900297946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Verved;
+				TargetAttributes = {
+					FDFA20F1220C00F900297946 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FDFA2107220C00FF00297946 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FDFA20F1220C00F900297946;
+					};
+					FDFA2112220C00FF00297946 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FDFA20F1220C00F900297946;
+					};
+				};
+			};
+			buildConfigurationList = FDFA20ED220C00F900297946 /* Build configuration list for PBXProject "reality_escaper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDFA20E9220C00F900297946;
+			productRefGroup = FDFA20F3220C00F900297946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDFA20F1220C00F900297946 /* reality_escaper */,
+				FDFA2107220C00FF00297946 /* reality_escaperTests */,
+				FDFA2112220C00FF00297946 /* reality_escaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDFA20F0220C00F900297946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFA20F8220C00FA00297946 /* art.scnassets in Resources */,
+				FDFA2102220C00FF00297946 /* LaunchScreen.storyboard in Resources */,
+				FDFA20FF220C00FF00297946 /* Assets.xcassets in Resources */,
+				FDFA20FD220C00FA00297946 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFA2106220C00FF00297946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFA2111220C00FF00297946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDFA20EE220C00F900297946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFA2126220C011600297946 /* Extension.swift in Sources */,
+				FDFA20FA220C00FA00297946 /* ViewController.swift in Sources */,
+				FDFA20F6220C00FA00297946 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFA2104220C00FF00297946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFA210D220C00FF00297946 /* reality_escaperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFA210F220C00FF00297946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFA2118220C010000297946 /* reality_escaperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDFA210A220C00FF00297946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDFA20F1220C00F900297946 /* reality_escaper */;
+			targetProxy = FDFA2109220C00FF00297946 /* PBXContainerItemProxy */;
+		};
+		FDFA2115220C00FF00297946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDFA20F1220C00F900297946 /* reality_escaper */;
+			targetProxy = FDFA2114220C00FF00297946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDFA20FB220C00FA00297946 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFA20FC220C00FA00297946 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDFA2100220C00FF00297946 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFA2101220C00FF00297946 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDFA211A220C010000297946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDFA211B220C010000297946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDFA211D220C010000297946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = reality_escaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.reality-escaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDFA211E220C010000297946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = reality_escaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.reality-escaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDFA2120220C010000297946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = reality_escaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.reality-escaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reality_escaper.app/reality_escaper";
+			};
+			name = Debug;
+		};
+		FDFA2121220C010000297946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = reality_escaperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.reality-escaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reality_escaper.app/reality_escaper";
+			};
+			name = Release;
+		};
+		FDFA2123220C010000297946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = reality_escaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.reality-escaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reality_escaper;
+			};
+			name = Debug;
+		};
+		FDFA2124220C010000297946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = reality_escaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.reality-escaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reality_escaper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDFA20ED220C00F900297946 /* Build configuration list for PBXProject "reality_escaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFA211A220C010000297946 /* Debug */,
+				FDFA211B220C010000297946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFA211C220C010000297946 /* Build configuration list for PBXNativeTarget "reality_escaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFA211D220C010000297946 /* Debug */,
+				FDFA211E220C010000297946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFA211F220C010000297946 /* Build configuration list for PBXNativeTarget "reality_escaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFA2120220C010000297946 /* Debug */,
+				FDFA2121220C010000297946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFA2122220C010000297946 /* Build configuration list for PBXNativeTarget "reality_escaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFA2123220C010000297946 /* Debug */,
+				FDFA2124220C010000297946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDFA20EA220C00F900297946 /* Project object */;
+}
